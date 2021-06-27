@@ -113,7 +113,7 @@ class WebSocketServer {
                     }
                 }
 
-                //将加入房间成功的消息,分别发送给主叫方和被叫方
+                //将被叫方加入房间成功的消息,分别发送给主叫方和被叫方
                 val joinSuccessResponseMsg = JsonUtils.parseBean2json(
                     JoinSuccessResponse(
                         baseRequest.roomId,

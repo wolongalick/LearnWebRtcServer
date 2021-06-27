@@ -139,6 +139,16 @@
                     </execution>
                 </executions>
             </plugin>
+            <!--添加配置跳过测试-begin-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.1</version>
+                <configuration>
+                    <skipTests>true</skipTests>
+                </configuration>
+            </plugin>
+            <!--添加配置跳过测试-end-->
         </plugins>
     </build>
 
