@@ -31,10 +31,10 @@ class ResponseType {
         const val RING: String = "RING"//无需定义此常量,因为服务器不处理业务,而是直接转发
         const val REJECT: String = "REJECT"//无需定义此常量,因为服务器不处理业务,而是直接转发
         const val JOIN_SUCCESS: String = "JOIN_SUCCESS"
-        const val SDP_OFFER: String = "SDP_OFFER"
-        const val SDP_ANSWER: String = "SDP_ANSWER"
-        const val CANDIDATE: String = "CANDIDATE"
-        const val REMOVE_CANDIDATES: String = "REMOVE_CANDIDATES"
-        const val LEAVE: String = "LEAVE"
+        const val SDP_OFFER: String = "SDP_OFFER"//无需定义此常量,因为服务器不处理业务,而是直接转发
+        const val SDP_ANSWER: String = "SDP_ANSWER"//无需定义此常量,因为服务器不处理业务,而是直接转发
+        const val CANDIDATE: String = "CANDIDATE"//无需定义此常量,因为服务器不处理业务,而是直接转发
+        const val REMOVE_CANDIDATES: String = "REMOVE_CANDIDATES"//无需定义此常量,因为服务器不处理业务,而是直接转发
+        const val LEAVE: String = "LEAVE"//无需定义此常量,因为服务器不处理业务,而是直接转发
     }
 }
