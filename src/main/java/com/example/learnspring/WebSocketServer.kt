@@ -20,7 +20,7 @@ import org.slf4j.LoggerFactory
 import org.springframework.stereotype.Component
 import javax.websocket.Session
 
-@ServerEndpoint("/{account}")
+@ServerEndpoint("/webSocket/{account}")
 @Component
 class WebSocketServer {
 
